@@ -14,7 +14,7 @@ MainMenu: YAMACS
     CustomWindow: YAMACS - Select atom
       Width: 600
       Height: 400
-      Text: X= 20,Y= 48,Text="A new YASARA window will open. Select the atoms in the new window for further calculations"     
+      Text: X= 20,Y= 48,Text="Select the atoms in the new window for further calculations"     
       TextInput:   X= 20,Y=150,Text="Please insert the path of working directory",Width=250,Chars=250
       Button:      X=542,Y=348,Text="_O_ K"
     Request: 
@@ -43,6 +43,7 @@ class cd:
         os.chdir(self.savedPath)
 
 macrotarget = str((yasara.selection[0].text[0]))
+yasara.run('ScreenSize X=1366,Y=768,Scale=1')
 patname=str((macrotarget)+"/file_select.txt")
 mcrpath=str((macrotarget)+"/select_atom.mcr")
 yas_ndx=str((macrotarget)+"/yas_index.ndx")
@@ -83,8 +84,8 @@ with open(mcrpath, 'a') as the_file:
     the_file.write("showmessage 'Finished! Close this yasara window to continue'\n")  
     the_file.write("wait continuebutton\n")
 #PlayMacro /personale/file/select_atom.mcr
-yasafolder=str((yasarafld)+"/yasara") # percorso dove è salvato yasara
-yasaramcrpath=(macrotarget) #percorso dove è salvata la macro
+yasafolder=str((yasarafld)+"/yasara") # percorso dove Ã¨ salvato yasara
+yasaramcrpath=(macrotarget) #percorso dove Ã¨ salvata la macro
 cmddue= str(str(yasaramcrpath)+'/select_atom.mcr')
 joined=str(yasafolder)+" "+str(cmddue)
 print(cmddue)

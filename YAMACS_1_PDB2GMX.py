@@ -80,7 +80,7 @@ ff= (forcefield.replace("'", ""))
 attachedobject=str((yasara.selection[0].radiobutton[1]))
 mdp=str((yasara.selection[0].radiobutton[0]))
 print (selforce)
-
+yasara.run('ScreenSize X=1366,Y=768,Scale=1')
 
 if mod == 1:
   mod = 'spce'

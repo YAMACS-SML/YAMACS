@@ -53,7 +53,7 @@ size= str((yasara.selection[0].number[0]))
 box= str((yasara.selection[0].list))
 boxtype= (box.strip('[]'))
 solvationbox= (boxtype.replace("'", ""))
-
+yasara.run('ScreenSize X=1366,Y=768,Scale=1')
 #step1 generation of gromacs files
 
 

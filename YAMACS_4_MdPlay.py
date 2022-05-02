@@ -25,7 +25,7 @@ import time
 
 macrotarget = str((yasara.selection[0].text[0]))
 pathYasara = os.getcwd()
-
+yasara.run('ScreenSize X=1366,Y=768,Scale=1')
 #temporay.ini file contain all the information of input file
 if os.path.isfile((macrotarget)+"/temporary.ini"):
   #reading the total number of frames generated during simulation from temporary.ini file

@@ -52,6 +52,7 @@ class cd:
 
 os.system('pkill gmx')
 pathYasara = os.getcwd()
+yasara.run('ScreenSize X=1366,Y=768,Scale=1')
 email = str((yasara.selection[0].text[0]))
 step= ((yasara.selection[0].number[0]))
 #calculation of the duration for simulation;(1ns= 500000 nsteps)
