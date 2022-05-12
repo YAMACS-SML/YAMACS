@@ -1,4 +1,5 @@
 This folder contains video tutorials showing how YAMACS works. The folder will be updated as new plugins are created.
+Instructions on how to create new plugins can be found in YASARA User Manual. To check the manual, open YASARA and click on Help->Show user manual.
 
 
 11/05/22 - Edit to uploaded videos:
@@ -9,5 +10,3 @@ This folder contains video tutorials showing how YAMACS works. The folder will b
 
 All the videos are available on YAMACS YouTube Channel: https://bit.ly/yamacs-tutorials
 
-
-Instructions on how to create new plugins can be found in YASARA User Manual. To check the manual, open YASARA and click on Help->Show user manual.
