@@ -1,7 +1,7 @@
 # YASARA PLUGIN
 # TOPIC:       YAMACS - MD run
 # TITLE:       YAMACS - MD run
-# AUTHOR:      J.Santoro, A.Nardiello, A.Sarkaar
+# AUTHOR:      J.Santoro, A.Nardiello, A.Sarkar (Update: 08.01.24)
 # LICENSE:     Non-Commercial
 #
 # This is a YASARA plugin to be placed in the /plg subdirectory
