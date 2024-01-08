@@ -70,7 +70,7 @@ def mdxtc():
      a= 'LoadPDB '+(macrotarget)+'/npt.pdb'
      yasara.run(a) 
      yasara.run("ZoomAll Steps=20")
-     time.sleep(2)
+     time.sleep(8)
      #below this point, the plugin will calculate the size of the '.xtc' trajectory file. 
      #based on the increament of the size of .xtc file, yasara will load the xtc file in the yasara window.
      #the upgradation of the xtc file is controlled by the 'nstxout-compressed ' section of md.mdp file          
@@ -163,7 +163,7 @@ def mdxtc():
                      yasara.run("ZoomAll Steps=20")
                      yasara.run("HideRes cl")
                      yasara.run("HideRes Na")
-                     time.sleep(2)
+                     time.sleep(8)
                      i= 0
                      while 1:
                          a = os.path.getsize((macrotarget)+'/md_1_2.part0002.xtc')
